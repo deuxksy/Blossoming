@@ -547,7 +547,7 @@ def main():
                 if filename.lower().endswith(supported_extensions):
                     filepath = os.path.join(root, filename)
                     print(f"\n{'=' * 60}")
-                    print(f"Processing: {filename}")
+                    print(f"Pro안cessing: {filename}")
                     print("=" * 60)
                     converter.process_image(filepath)
                     processed += 1
